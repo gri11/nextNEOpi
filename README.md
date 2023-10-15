@@ -304,6 +304,13 @@ nextflow run nextNEOpi.nf \
 **Further options:**        There are many more options that can be set in the params.conf file or specified on the commandline
                             (see ```conf/params.config```)
 
+### Run with Makefile
+```
+make dev # run with testdata
+make run BATCHFILE=batchfile.csv # run from start
+make resume BATCHFILE=batchfile.csv # resume from last run
+```
+
 ## 3. Output
 
 The Pipeline stores its ouput in the following structure:

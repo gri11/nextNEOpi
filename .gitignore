@@ -8,6 +8,8 @@ RESULTS/
 RESULT_mgc/
 RESULT_testdata
 
+ps_log/*.log
+
 .nextflow*
 .nextflow/
 
